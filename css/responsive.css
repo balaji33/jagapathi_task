@@ -1,0 +1,203 @@
+@media (max-width:720px) {
+    .header-main {
+      height:50px;
+    }
+  
+    /* .navigation {
+      float:left;
+      display:block;
+      width:100%;
+    } */
+    .header-menus {
+      float:right;
+      width:100%;
+      background:#1a1a1a;
+      margin:auto;
+      display:none;
+    }
+    
+    .header-menus li {
+      width:100%;
+      display:block;
+    }
+    .header-menus li a{
+      display:block;
+      margin:auto;
+    }
+    .hamburger-menu {
+      display:block;
+      text-align:center;
+      padding-right:60px;
+      float:none;
+      width:100%;
+    }
+    .bar-1, .bar-2, .bar-3 {
+    display:block;
+    position:absolute;
+    width:20px;
+    height:3px;
+    border-radius:30px;
+    right:0;
+    margin-right:25px;
+    background:#fff;
+      -webkit-transition:.2s ease;
+      -ms-transition:.2s ease;
+      -moz-transition:.2s ease;
+      -o-transition:.2s ease;
+    transition:.2s ease; 
+    }
+    .bar-1 {
+    top:15px;
+    }
+    .bar-2 {
+    top:23px;
+    }
+    .bar-3 {
+    top:31px;
+    }
+    .bar-1.open, .bar-2.open, .bar-3.open {
+    -webkit-transition:.2s ease;
+    -ms-transition:.2s ease;
+    -moz-transition:.2s ease;
+    -o-transition:.2s ease;
+      transition:.2s ease;
+      transform-origin:50% 50%;
+    }
+    .bar-1.open {
+      top:25px;
+      width:23px;
+      transform:rotate(45deg);
+      -webkit-transform:rotate(45deg); 
+      -ms-transform:rotate(45deg); 
+      -moz-transform:rotate(45deg); 
+      -o-transform:rotate(45deg); 
+    }
+    .bar-2.open {
+      opacity:0;
+    }
+    .bar-3.open {
+      top:25px;
+      width:23px;
+      transform:rotate(-45deg);
+    }
+    .dropdown {
+      width:100%;
+      background:#0e0e0e;
+      text-align:center;
+      position:relative;
+    }
+    .sub-dropdown {
+      right:0;
+      top:0;
+      width:100%;
+      position:relative;
+      padding:0 20px;
+  }
+  
+  }
+
+
+  
+@media (max-width: 1200px) {
+  .headerMain .nav-block .menu-list li {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .headerMain .nav-block:before {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .headerMain {
+    padding: 0px 15px;
+    height: 80px;
+    box-shadow: none;
+    text-align: center;
+  }
+  .headerMain .container {
+    padding: 0px;
+  }
+  .headerMain .logo {
+    margin-left: 30px;
+  }
+  .headerMain .nav-block {
+    overflow: hidden;
+  }
+  .headerMain .nav-block .menu-list {
+    float: none;
+    width: 100%;
+    margin-top: 80px !important;
+    display: none;
+    -webkit-transition: all 0s ease 0s;
+    -moz-transition: all 0s ease 0s;
+    -o-transition: all 0s ease 0s;
+    transition: all 0s ease 0s;
+    margin-left: 0px;
+  }
+  .headerMain .nav-block .menu-list li:first-child {
+    border-top: 1px solid #eee;
+  }
+  .headerMain .nav-block .menu-list li {
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .headerMain .nav-block .menu-list li a {
+    height: 50px !important;
+    line-height: 50px !important;
+    padding: 0px !important;
+    border: none !important;
+    background: #fff !important;
+    color: #3b566e !important;
+  }
+  .headerMain .nav-block .menu-list li a:hover {
+    background: #eee !important;
+  }
+  .headerMain .nav-block .menu-list > li > a:hover,
+  .headerMain .nav-block .menu-list .submenu > ul > li > a:hover {
+    color: #f55858;
+  }
+  .headerMain .nav-block .menu-list li.submenu ul {
+    position: relative;
+    visibility: inherit;
+    opacity: 1;
+    z-index: 1;
+    transform: translateY(0%);
+    transition-delay: 0s, 0s, 0.3s;
+    top: 0px;
+    width: 100%;
+    box-shadow: none;
+    height: 0px;
+  }
+  .headerMain .nav-block .menu-list li.submenu ul li a {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .headerMain .nav-block .menu-list li.submenu ul li a:hover:before {
+    width: 0px;
+  }
+  .headerMain .nav-block .menu-list li.submenu ul.active {
+    height: auto !important;
+  }
+  .headerMain .nav-block .menu-list li.submenu:after {
+    color: #3b566e;
+    right: 25px;
+    font-size: 14px;
+    top: 15px;
+  }
+  .headerMain .nav-block .menu-list li.submenu:hover ul,
+  .headerMain .nav-block .menu-list li.submenu:focus ul {
+    height: 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  .headerMain .nav-block .menu-list {
+    display: flex !important;
+  }
+}
+
+/* 

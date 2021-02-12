@@ -1,0 +1,241 @@
+.left-categories img {
+  width: 22px;
+  margin-right: 15px;
+}
+
+.left-categories li {
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 0 10px rgb(0 0 0 / 14%);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.left-categories li a {
+  display: inline-block;
+  width: 100%;
+  padding-left: 15px !important;
+  padding: 20px 0px;
+  color: #6d97d3;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.categories-card {
+  box-shadow: 0 0 10px rgb(0 0 0 / 14%);
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.courses-details-inner.container {
+  padding: 0;
+}
+
+.categories-card-top {
+  position: relative;
+}
+
+.categories-card-top:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.left-categories a.active {
+  background: #06266c;
+  color: #ede9e9;
+  border-radius: 5px;
+}
+
+.categories-card-top img {
+  width: 100%;
+  height: 115px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.categories-card-bottom h4 {
+  font-size: 14px;
+  color: #6d97d3;
+  font-weight: 600;
+  font-family: "RalewayLight";
+}
+
+.categories-card-bottom {
+  padding: 15px 15px;
+}
+
+.categories-card-bottom li {
+  margin-left: 18px;
+  font-size: 15px;
+  color: #a59898;
+}
+
+.categories-card-bottom li:before {
+  content: "\f111";
+  position: absolute;
+  left: 30px;
+  margin-top: 2px;
+  font-family: "FontAwesome";
+  font-size: 12px;
+  color: #54b66a;
+}
+
+.courses-details-block h2 {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 50px;
+  font-family: "RalewayLight";
+  letter-spacing: 2px;
+  color: #031053;
+}
+
+.price-course span {
+  font-weight: 600;
+  font-size: 18px;
+  position: relative;
+  top: 2px;
+  right: 5px;
+}
+
+.price-course span:before {
+  content: "\f156";
+  position: absolute;
+  margin-left: -15px;
+  font-family: "FontAwesome";
+  font-size: 18px;
+  color: #eb7072;
+}
+
+.left-categories .active {
+  background: #06266c;
+  color: #ede9e9;
+  border-radius: 5px;
+}
+
+.sub-title-course a {
+  color: #000;
+  font-size: 20px;
+}
+
+.sub-title-course .preview-btn {
+  font-size: 14px;
+  position: relative;
+  top: 0px;
+  color: #fff;
+  left: 8px;
+  background: #6d97d3;
+  padding: 4px 30px 4px 12px;
+  border-radius: 50px;
+  z-index: 100;
+}
+
+.sub-title-course .preview-btn::after {
+  content: "\f04b";
+  position: absolute;
+  right: 12px;
+  top: 6px;
+  transform: perspective(1px) translateZ(0);
+  transition-duration: 0.3s;
+  font-family: "FontAwesome";
+  font-size: 10px;
+  color: #ffffff;
+}
+.sub-title-course.demo-video-btn {
+  position: static;
+}
+
+.nav-tabs {
+  display: inline-flex;
+  width: 100%;
+  overflow-x: auto;
+  border-bottom: 2px solid #ddd;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  border-width: 0;
+}
+.nav-tabs > li > a {
+  border: none;
+  color: #666;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li > a:hover {
+  border: none;
+  color: #4285f4 !important;
+  background: transparent;
+}
+
+.nav-tabs > li.active > a::after,
+.nav-tabs > li:hover > a::after {
+  transform: scale(1);
+}
+.tab-nav > li > a::after {
+  background: #21527d none repeat scroll 0% 0%;
+  color: #fff;
+}
+.nav-tabs::-webkit-scrollbar {
+  display: none;
+}
+.card {
+  background: #fff none repeat scroll 0% 0%;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  margin-bottom: 30px;
+}
+body {
+  background: #edecec;
+}
+.nav-tabs {
+  display: inline-flex;
+  width: 100%;
+  overflow-x: auto;
+  border-bottom: 2px solid #ddd;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  border-width: 0;
+}
+.nav-tabs > li > a {
+  border: none;
+  color: #666;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li > a:hover {
+  border: none;
+  color: #4285f4 !important;
+  background: transparent;
+}
+
+.nav-tabs > li.active > a::after,
+.nav-tabs > li:hover > a::after {
+  transform: scale(1);
+}
+.tab-nav > li > a::after {
+  background: #21527d none repeat scroll 0% 0%;
+  color: #fff;
+}
+
+.nav-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.right-tabs .nav-tabs li a {
+  background: black !important;
+  color: #fff;
+  padding: 10px 25px;
+  height: 50px;
+  display: block;
+}
